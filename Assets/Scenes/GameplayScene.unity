@@ -713,14 +713,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Screen_SignalsB
       objectReference: {fileID: 0}
-    - target: {fileID: -3729064780554744707, guid: 4af310926e2c86c45a233906b3b11dc9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.9866474
-      objectReference: {fileID: 0}
-    - target: {fileID: -3729064780554744707, guid: 4af310926e2c86c45a233906b3b11dc9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.9658382
-      objectReference: {fileID: 0}
     - target: {fileID: -2601960991400099859, guid: 4af310926e2c86c45a233906b3b11dc9, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.54
@@ -753,14 +745,6 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: c5a9da8e3b3dd0e47bb3879de4f8bd35, type: 2}
-    - target: {fileID: 8562572118022361791, guid: 4af310926e2c86c45a233906b3b11dc9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.98
-      objectReference: {fileID: 0}
-    - target: {fileID: 8562572118022361791, guid: 4af310926e2c86c45a233906b3b11dc9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.95
-      objectReference: {fileID: 0}
     - target: {fileID: 8602174653891555788, guid: 4af310926e2c86c45a233906b3b11dc9, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
