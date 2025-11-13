@@ -6,7 +6,7 @@ public class SceneChanger : MonoBehaviour
     public void StartGame()
     {
         ResetSatelitePlayerPrefsToDefaults();
-
+        PlayerPrefs.SetInt("DAY", 0);
         SceneManager.LoadScene(1);
     }
 

@@ -4878,6 +4878,7 @@ MonoBehaviour:
   cooldownTextTMP: {fileID: 1588087115}
   resetButton: {fileID: 1343997370}
   pingButton: {fileID: 907653635}
+  monitor: {fileID: 831061388}
   cameraMonitorPos: {fileID: 956732781}
 --- !u!1 &332878738 stripped
 GameObject:
@@ -10533,6 +10534,7 @@ MonoBehaviour:
   cooldownTextTMP: {fileID: 1002991803}
   resetButton: {fileID: 1441230156}
   pingButton: {fileID: 1659862951}
+  monitor: {fileID: 831061388}
   cameraMonitorPos: {fileID: 956732781}
 --- !u!1 &956732781
 GameObject:
@@ -10741,6 +10743,7 @@ MonoBehaviour:
   cooldownTextTMP: {fileID: 1222160144}
   resetButton: {fileID: 1998666589}
   pingButton: {fileID: 1635120726}
+  monitor: {fileID: 831061388}
   cameraMonitorPos: {fileID: 956732781}
 --- !u!1 &982454089 stripped
 GameObject:
@@ -11353,6 +11356,7 @@ MonoBehaviour:
   cooldownTextTMP: {fileID: 1233979538}
   resetButton: {fileID: 843989801}
   pingButton: {fileID: 1368919629}
+  monitor: {fileID: 831061388}
   cameraMonitorPos: {fileID: 956732781}
 --- !u!1 &1039628169 stripped
 GameObject:
@@ -21655,6 +21659,7 @@ MonoBehaviour:
   cooldownTextTMP: {fileID: 24043668}
   resetButton: {fileID: 269057148}
   pingButton: {fileID: 1199799036}
+  monitor: {fileID: 831061388}
   cameraMonitorPos: {fileID: 956732781}
 --- !u!1 &2137376845 stripped
 GameObject:
