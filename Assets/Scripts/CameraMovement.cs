@@ -102,7 +102,8 @@ public class CameraClickMove : MonoBehaviour
         }
     }
 
-    void SetNewCameraTarget(Transform newTarget)
+    // Hice este metodo Publico para poder llamarlo desde otros scripts jej
+    public void SetNewCameraTarget(Transform newTarget)
     {
         targetPosition = newTarget.localPosition;
         targetRotation = newTarget.localRotation;
@@ -113,7 +114,8 @@ public class CameraClickMove : MonoBehaviour
         moving = true;
     }
 
-    void SetNoteTarget(Transform newTarget)
+    // Hice este metodo Publico para poder llamarlo desde otros scripts jej2
+    public void SetNoteTarget(Transform newTarget)
     {
         if (note == null) return;
 

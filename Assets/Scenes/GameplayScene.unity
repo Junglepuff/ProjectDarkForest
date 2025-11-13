@@ -3918,7 +3918,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 269057151}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2132377001}
+        m_TargetAssemblyTypeName: Satelite, Assembly-CSharp
+        m_MethodName: ResetSatelite
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &269057151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4807,6 +4819,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 332774267}
+  - component: {fileID: 332774268}
   m_Layer: 5
   m_Name: Satelite2
   m_TagString: Untagged
@@ -4839,6 +4852,33 @@ RectTransform:
   m_AnchoredPosition: {x: 1.3200002, y: 0.104}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &332774268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332774266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0425c4380edf43e428b5814f1f75a09d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sateliteID: 002
+  sateliteName: Pioneer
+  sateliteLocation: Ofiuco
+  state: 0
+  hasAnomaly: 0
+  prCooldown: 30
+  hasBeenPinged: 0
+  nameTextTMP: {fileID: 254499289}
+  nameTextScreenTMP: {fileID: 1885118830}
+  stateTextTMP: {fileID: 18053724}
+  locationTextTMP: {fileID: 626680119}
+  cooldownTextTMP: {fileID: 1588087115}
+  resetButton: {fileID: 1343997370}
+  pingButton: {fileID: 907653635}
+  cameraMonitorPos: {fileID: 956732781}
 --- !u!1 &332878738 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7175098553173832140, guid: 4af310926e2c86c45a233906b3b11dc9, type: 3}
@@ -8891,7 +8931,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 843989804}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1033051482}
+        m_TargetAssemblyTypeName: Satelite, Assembly-CSharp
+        m_MethodName: ResetSatelite
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &843989804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9843,7 +9895,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 907653638}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 332774268}
+        m_TargetAssemblyTypeName: Satelite, Assembly-CSharp
+        m_MethodName: PingSatelite
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &907653638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10410,6 +10474,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 949696407}
+  - component: {fileID: 949696408}
   m_Layer: 5
   m_Name: Satelite5
   m_TagString: Untagged
@@ -10442,6 +10507,33 @@ RectTransform:
   m_AnchoredPosition: {x: 1.3200002, y: -0.273}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &949696408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949696406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0425c4380edf43e428b5814f1f75a09d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sateliteID: 005
+  sateliteName: Helios
+  sateliteLocation: Ofiuco
+  state: 0
+  hasAnomaly: 0
+  prCooldown: 30
+  hasBeenPinged: 0
+  nameTextTMP: {fileID: 1085201028}
+  nameTextScreenTMP: {fileID: 1885118830}
+  stateTextTMP: {fileID: 776818444}
+  locationTextTMP: {fileID: 574824994}
+  cooldownTextTMP: {fileID: 1002991803}
+  resetButton: {fileID: 1441230156}
+  pingButton: {fileID: 1659862951}
+  cameraMonitorPos: {fileID: 956732781}
 --- !u!1 &956732781
 GameObject:
   m_ObjectHideFlags: 0
@@ -10590,6 +10682,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 977338890}
+  - component: {fileID: 977338891}
   m_Layer: 5
   m_Name: Satelite3
   m_TagString: Untagged
@@ -10622,6 +10715,33 @@ RectTransform:
   m_AnchoredPosition: {x: 1.3200002, y: -0.022}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &977338891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 977338889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0425c4380edf43e428b5814f1f75a09d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sateliteID: 003
+  sateliteName: Mariner
+  sateliteLocation: Ofiuco
+  state: 0
+  hasAnomaly: 0
+  prCooldown: 30
+  hasBeenPinged: 0
+  nameTextTMP: {fileID: 938244903}
+  nameTextScreenTMP: {fileID: 1885118830}
+  stateTextTMP: {fileID: 1231641224}
+  locationTextTMP: {fileID: 114374407}
+  cooldownTextTMP: {fileID: 1222160144}
+  resetButton: {fileID: 1998666589}
+  pingButton: {fileID: 1635120726}
+  cameraMonitorPos: {fileID: 956732781}
 --- !u!1 &982454089 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 509725455281770720, guid: 4af310926e2c86c45a233906b3b11dc9, type: 3}
@@ -11174,6 +11294,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1033051481}
+  - component: {fileID: 1033051482}
   m_Layer: 5
   m_Name: Satelite1
   m_TagString: Untagged
@@ -11206,6 +11327,33 @@ RectTransform:
   m_AnchoredPosition: {x: 1.3200002, y: 0.23099998}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1033051482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033051480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0425c4380edf43e428b5814f1f75a09d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sateliteID: 001
+  sateliteName: Voyager
+  sateliteLocation: Ofiuco
+  state: 0
+  hasAnomaly: 0
+  prCooldown: 30
+  hasBeenPinged: 0
+  nameTextTMP: {fileID: 1520829679}
+  nameTextScreenTMP: {fileID: 1885118830}
+  stateTextTMP: {fileID: 1113430477}
+  locationTextTMP: {fileID: 864439815}
+  cooldownTextTMP: {fileID: 1233979538}
+  resetButton: {fileID: 843989801}
+  pingButton: {fileID: 1368919629}
+  cameraMonitorPos: {fileID: 956732781}
 --- !u!1 &1039628169 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3715695461307847325, guid: 4af310926e2c86c45a233906b3b11dc9, type: 3}
@@ -12841,7 +12989,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1199799039}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2132377001}
+        m_TargetAssemblyTypeName: Satelite, Assembly-CSharp
+        m_MethodName: PingSatelite
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1199799039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14415,7 +14575,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1343997373}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 332774268}
+        m_TargetAssemblyTypeName: Satelite, Assembly-CSharp
+        m_MethodName: ResetSatelite
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1343997373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14563,7 +14735,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1368919632}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1033051482}
+        m_TargetAssemblyTypeName: Satelite, Assembly-CSharp
+        m_MethodName: PingSatelite
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1368919632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15324,7 +15508,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1441230159}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 949696408}
+        m_TargetAssemblyTypeName: Satelite, Assembly-CSharp
+        m_MethodName: ResetSatelite
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1441230159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16872,7 +17068,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1635120729}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 977338891}
+        m_TargetAssemblyTypeName: Satelite, Assembly-CSharp
+        m_MethodName: PingSatelite
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1635120729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17440,7 +17648,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1659862954}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 949696408}
+        m_TargetAssemblyTypeName: Satelite, Assembly-CSharp
+        m_MethodName: PingSatelite
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1659862954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20748,7 +20968,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1998666592}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 977338891}
+        m_TargetAssemblyTypeName: Satelite, Assembly-CSharp
+        m_MethodName: ResetSatelite
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1998666592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21364,6 +21596,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2132377000}
+  - component: {fileID: 2132377001}
   m_Layer: 5
   m_Name: Satelite4
   m_TagString: Untagged
@@ -21396,6 +21629,33 @@ RectTransform:
   m_AnchoredPosition: {x: 1.3200002, y: -0.15}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2132377001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132376999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0425c4380edf43e428b5814f1f75a09d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sateliteID: 004
+  sateliteName: Venera
+  sateliteLocation: Ofiuco
+  state: 0
+  hasAnomaly: 0
+  prCooldown: 30
+  hasBeenPinged: 0
+  nameTextTMP: {fileID: 159737463}
+  nameTextScreenTMP: {fileID: 1885118830}
+  stateTextTMP: {fileID: 1379146453}
+  locationTextTMP: {fileID: 1575370459}
+  cooldownTextTMP: {fileID: 24043668}
+  resetButton: {fileID: 269057148}
+  pingButton: {fileID: 1199799036}
+  cameraMonitorPos: {fileID: 956732781}
 --- !u!1 &2137376845 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 646171515208442804, guid: 4af310926e2c86c45a233906b3b11dc9, type: 3}
